@@ -47,7 +47,6 @@ class UserController {
         }
     }
 
-    // Excluir um usuário
     async deleteUser(req, res) {
         const { id } = req.params;
         try {
